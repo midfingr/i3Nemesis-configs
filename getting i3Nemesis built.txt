@@ -1,0 +1,37 @@
+Things that need to be done...
+
+Xresources file needs to be copied to ~/.Xresources then configured with xrdb ~/.Xresources
+compton.conf needs to be copied to ~/.config/compton.conf
+config file needs to be copied to ~/.config/i3
+i3status.conf needs to be copied to ~/.i3status.conf
+Install ranger and do a ranger --copy-config=all
+Then place rc.conf into ~/.config/ranger
+Copy Lion.jpg and arch.jpg to ~/Pictures
+neofetch_config needs to copied to ~/.config/neofetch/config
+and arch.jpg will be shown in terminal....
+
+Bunsen Themes need to be installed at /usr/share/themes
+Theme used Bunsen Dark
+Font used Terminess Powerline 12 (change in lxappearance)
+Download powerline fonts from here. https://github.com/powerline/fonts
+and Install using install.sh file in extracted folder as the user.
+
+
+Mpd and Ncmpcpp
+
+mkdir ~/.config/mpd
+mkdir ~/.config/mpd/playlists
+cd .config/mpd
+touch log
+touch database
+touch pid
+touch state
+cp mpd.conf ~/.config/mpd
+mpd must be started as a user service. systemctl --user enable mpd.service
+
+cp ncmpcpp.config ~/.ncmpcpp/config
+
+After starting ncmpcpp in the terminal press u to update your database.
+Then press 2 to see your songlist and use numbers from 1-8 to see other views
+the number 8 will show you your visualizer.
+press enter to start a song and p to stop.
