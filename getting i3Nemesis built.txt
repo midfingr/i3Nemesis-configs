@@ -9,6 +9,8 @@ Then place rc.conf into ~/.config/ranger
 Copy Lion.jpg and arch.jpg to ~/Pictures
 neofetch_config needs to copied to ~/.config/neofetch/config
 and arch.jpg will be shown in terminal....
+10-udisk.rules need to be copied to /etc/polkit-1/rules.d
+and you won't get any security problems about opening internal disks.
 
 Bunsen Themes need to be installed at /usr/share/themes
 Theme used Bunsen Dark
