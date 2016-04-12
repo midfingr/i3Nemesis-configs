@@ -121,6 +121,7 @@ for_window [class="Nitrogen"] floating enable
 for_window [class="Steam"] floating enable
 for_window [class="Leafpad"] floating enable
 for_window [class="Rxvt"] floating enable
+for_window [class="Engrampa"] floating enable
 for_window [title="Chromium"] floating enable
 for_window [class="CopyAgent"] floating enable
 for_window [title="Copying"] floating enable
