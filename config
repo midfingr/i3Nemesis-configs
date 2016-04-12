@@ -98,6 +98,7 @@ exec --no-startup-id volumeicon
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id compton -b
 exec --no-startup-id nm-applet
+exec --no-startup-id notify-send 'Please open Documentation in File Manager'
 
 # Filemanagers
 bindsym $mod+Shift+Return exec thunar
