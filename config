@@ -106,6 +106,10 @@ bindsym $mod+Shift+Return exec thunar
 # Logout
 bindsym $mod+Pause exec oblogout
 
+# Browsers
+bindsym $mod+c exec chromium
+bindsym $mod+x exec firefox
+
 # No-Border
 for_window [class="^.*"] border pixel 5
 #gaps outer 05
