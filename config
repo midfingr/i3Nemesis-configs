@@ -103,6 +103,9 @@ exec --no-startup-id notify-send 'Please open Documentation in File Manager'
 # Filemanagers
 bindsym $mod+Shift+Return exec thunar
 
+# Logout
+bindsym $mod+o exec oblogout
+
 # No-Border
 for_window [class="^.*"] border pixel 5
 #gaps outer 05
